@@ -1,0 +1,102 @@
+*{
+font-family: "poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: aquamarine;
+}
+
+.tag{
+    font-size: 0.9rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+.card-tittle{
+    font-size: 2rem;
+    
+}
+.card-container{
+
+    background-color: aliceblue;
+    display: flex;
+    grid-template-columns: 55% 45%;
+    height: 80%;
+    width: 30%;
+    box-shadow: 10px 10px 25px 0px #3c3c3c;
+}
+.img-container{
+    background-image: url("../img/miata.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+    width: 28rem;
+
+}
+.description-container{
+    background-color: black;
+    color: #fff;
+    padding-left: 20px;
+    margin-top: -67px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.img-container img{
+    width: 28rem;
+}
+
+.stars{
+    color: yellow;
+    font-size: 1em;   
+}
+
+.color-price{
+display: flex;
+align-items: center;
+width: 70px;
+justify-content: space-between;
+margin-top: -15px; ;
+
+}
+
+.colors{
+    display: flex;
+    width: 6rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.blue{
+    background: blue;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.blue2{
+    background: blueviolet;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.red{
+    background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.pricing{
+    
+}
